@@ -285,6 +285,7 @@ int main() {
 				}
 			}
 		}
+		if (itemsdatVersion >= 16) memPos += 2;
 		if (i != itemID)
 			std::cout << "Item are unordered!" << std::endl;
 		j["itemID"] = itemID;
